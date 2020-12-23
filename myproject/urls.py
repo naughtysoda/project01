@@ -24,3 +24,4 @@ urlpatterns = [
     url(r'^line/linemassage[/]', csrf_exempt(views.LineMessage.as_view()), name='linemessage'),
     url(r'^admin/', admin.site.urls),
 ]
+
